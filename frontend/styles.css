@@ -1,0 +1,37 @@
+body {
+    background-color: #222831;
+    font-family: 'Segoe UI';
+    color: #ffffff;
+}
+
+.centerContainer {
+    margin-top: 130px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-title {
+    margin-top: 20px;
+}
+
+.resultTab {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-left: 10px;
+    height: 30px;
+    width: 230px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.resultTab #result {
+    max-width: calc(100% - 40px);
+}
